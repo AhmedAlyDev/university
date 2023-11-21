@@ -13,7 +13,7 @@ This project is a simple Django Rest Framework (DRF) application for managing a 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your_username/university-drf-app.git
+    git clone https://github.com/AhmedAliIbrahim53/university.git
     ```
 
 2. Install dependencies:
