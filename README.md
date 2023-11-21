@@ -12,26 +12,39 @@ This project is a simple Django Rest Framework (DRF) application for managing a 
 ## Installation
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/AhmedAliIbrahim53/university.git
-    ```
 
-2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   git clone https://github.com/AhmedAliIbrahim53/university.git
+   ```
 
-3. Apply database migrations:
-    ```bash
-    python manage.py migrate
-    ```
+2. Create and activate a virtual environment:
+
+   ```bash
+   python -m venv venv
+   # On Windows
+   source venv/Scripts/activate
+   # On macOS and Linux
+   source venv/bin/activate
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Apply database migrations:
+   ```bash
+   python manage.py migrate
+   ```
 
 ## Usage
 
 1. Run the development server:
-    ```bash
-    python manage.py runserver
-    ```
+
+   ```bash
+   python manage.py runserver
+   ```
 
 2. Access the API endpoints:
    - Faculties: `http://127.0.0.1:8000/faculties/`
@@ -48,6 +61,7 @@ This project is a simple Django Rest Framework (DRF) application for managing a 
 ## Contributing
 
 Contributions are welcome! Here's how you can contribute:
+
 - Fork the repository
 - Create a new branch (`git checkout -b feature`)
 - Make changes and commit (`git commit -am 'Add new feature'`)
