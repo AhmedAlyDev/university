@@ -4,7 +4,7 @@ from auth_uni.views import AddFacultyView, EditPasswordView, SignUpView, LogInVi
 urlpatterns = [
     path('signup/', SignUpView.as_view()),
     path('login/', LogInView.as_view()),
-    path('add_faculty/', AddFacultyView.as_view()),
-    path('edit_password/', EditPasswordView.as_view()),
+    path('add-faculty/', AddFacultyView.as_view()),
+    path('edit-password/', EditPasswordView.as_view()),
 
 ]
